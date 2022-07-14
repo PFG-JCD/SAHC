@@ -1,0 +1,94 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L esp32pry:ESP32-DEVKITC U1
+U 1 1 62B58F1E
+P 7600 3350
+F 0 "U1" H 7600 4517 50  0000 C CNN
+F 1 "ESP32-DEVKITC" H 7600 4426 50  0000 C CNN
+F 2 "esp32pry:MODULE_ESP32-DEVKITC" H 7600 3350 50  0001 L BNN
+F 3 "" H 7600 3350 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 7600 3350 50  0001 L BNN "STANDARD"
+F 5 "N/A" H 7600 3350 50  0001 L BNN "PARTREV"
+F 6 "ESPRESSIF" H 7600 3350 50  0001 L BNN "MANUFACTURER"
+	1    7600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 62B59D86
+P 5800 4200
+F 0 "R1" V 5593 4200 50  0000 C CNN
+F 1 "R" V 5684 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder" V 5730 4200 50  0001 C CNN
+F 3 "~" H 5800 4200 50  0001 C CNN
+	1    5800 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 62B5A3F2
+P 4800 3650
+F 0 "J1" H 4828 3626 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 4828 3535 50  0000 L CNN
+F 2 "Connector2:Banana_Jack_2Pin" H 4800 3650 50  0001 C CNN
+F 3 "~" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 62B5B42E
+P 6450 4500
+F 0 "#PWR0101" H 6450 4350 50  0001 C CNN
+F 1 "+5V" H 6465 4673 50  0000 C CNN
+F 2 "" H 6450 4500 50  0001 C CNN
+F 3 "" H 6450 4500 50  0001 C CNN
+	1    6450 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 4250 6450 4250
+Wire Wire Line
+	6450 4250 6450 4500
+$Comp
+L power:+5V #PWR0102
+U 1 1 62B5BC3C
+P 6150 4500
+F 0 "#PWR0102" H 6150 4350 50  0001 C CNN
+F 1 "+5V" H 6165 4673 50  0000 C CNN
+F 2 "" H 6150 4500 50  0001 C CNN
+F 3 "" H 6150 4500 50  0001 C CNN
+	1    6150 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 4200 6150 4200
+Wire Wire Line
+	6150 4200 6150 4500
+Wire Wire Line
+	5000 3650 5650 3650
+Wire Wire Line
+	5650 3650 5650 4200
+Wire Wire Line
+	6800 3450 5000 3450
+Wire Wire Line
+	5000 3450 5000 3550
+Text Notes 4100 3800 0    50   ~ 0
+SENSOR VENTANA
+Text Notes 4200 4000 0    50   ~ 0
+CONN 1 VCC\nCONN 2 DATA\n
+$EndSCHEMATC
