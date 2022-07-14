@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TSSP58038
+#
+DEF TSSP58038 U 0 40 Y Y 1 L N
+F0 "U" 100 -220 50 H V L BNN
+F1 "TSSP58038" 100 290 50 H V L BNN
+F2 "TSSP58038" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+A 200 0 130 2700 4499 0 0 10 N 200 -130 200 130
+S -150 -200 200 200 0 0 16 f
+X OUT OUT -250 -100 100 R 40 40 0 0 B 
+X GND GND -250 0 100 R 40 40 0 0 B 
+X VS VS -250 100 100 R 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

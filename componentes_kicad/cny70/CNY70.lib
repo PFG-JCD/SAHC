@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# CNY70
+#
+DEF CNY70 U 0 40 Y N 1 L N
+F0 "U" -200 220 50 H V L BNN
+F1 "CNY70" -200 -280 50 H V L BNN
+F2 "DIPS254W50P254L710H600Q4" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "IPC-7351B" 0 0 50 H I L BNN "STANDARD"
+F5 "18950" 0 0 50 H I L BNN "SNAPEDA_PACKAGE_ID"
+F6 "Vishay Semiconductor Opto Division" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "1.8" 0 0 50 H I L BNN "PARTREV"
+DRAW
+P 2 0 0 6 -95 100 -200 100 N
+P 2 0 0 6 -95 -100 -200 -100 N
+P 2 0 0 6 150 100 50 0 N
+P 2 0 0 6 50 0 150 -100 N
+P 2 0 0 6 150 100 200 100 N
+P 2 0 0 6 150 -100 200 -100 N
+S 35 -100 65 100 0 0 0 F
+P 4 0 0 6 150 100 100 80 130 50 150 100 f
+P 2 0 0 10 -145 50 -95 -25 N
+P 2 0 0 10 -95 -25 -45 50 N
+P 2 0 0 10 -45 -25 -95 -25 N
+P 2 0 0 10 -45 50 -95 50 N
+P 2 0 0 10 -95 50 -145 50 N
+P 2 0 0 10 -95 -25 -145 -25 N
+P 2 0 0 6 -95 100 -95 50 N
+P 2 0 0 6 -95 -100 -95 -25 N
+P 2 0 0 6 -95 -25 -95 50 N
+S -200 -200 200 200 0 0 10 f
+X ~ A -400 100 200 R 40 40 0 0 P 
+X ~ CATH -400 -100 200 R 40 40 0 0 P 
+X ~ COLL 400 -100 200 L 40 40 0 0 P 
+X ~ E 400 100 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

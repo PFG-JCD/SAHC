@@ -1,0 +1,43 @@
+
+(module TSSP58038 (layer F.Cu) (tedit 62B45FE8)
+  (descr "<h3>Plated Through Hole - 3 Pin Locking Footprint</h3>Pins are staggered 0.005\" off center to lock pins while soldering. <p>Specifications:<ul><li>Pin count:3</li><li>Pin pitch:0.1\"</li></ul></p><p>Example device(s):<ul><li>CONN_03</li></ul></p>")
+  (fp_text reference REF** (at -2.2288 -0.014 900) (layer F.SilkS)
+    (effects (font (size 0.48 0.48) (thickness 0.15)))
+  )
+  (fp_text value "TSSP58038" (at 0 0) (layer F.Fab)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (pad OUT thru_hole circle (at -0.254 2.54) (size 1.8796 1.8796) (drill 1.016) (layers *.Cu *.Mask))
+  (pad GND thru_hole circle (at 0.0 0.0) (size 1.9304 1.9304) (drill 1.016) (layers *.Cu *.Mask))
+  (pad VS thru_hole circle (at -0.254 -2.54) (size 1.8796 1.8796) (drill 1.016) (layers *.Cu *.Mask))
+  (fp_poly
+    (pts
+      (xy -0.381 -2.794)
+      (xy 0.127 -2.794)
+      (xy 0.127 -2.286)
+      (xy -0.381 -2.286)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.381 -0.254)
+      (xy 0.127 -0.254)
+      (xy 0.127 0.254)
+      (xy -0.381 0.254)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.381 2.286)
+      (xy 0.127 2.286)
+      (xy 0.127 2.794)
+      (xy -0.381 2.794)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_line (start -1.527 2.54) (end -1.527 -2.54) (layer F.Fab) (width 0.127))
+  (fp_line (start 1.273 2.54) (end 1.273 2.0) (layer F.Fab) (width 0.127))
+  (fp_line (start 1.273 -2.0) (end 1.273 -2.54) (layer F.Fab) (width 0.127))
+  (fp_line (start -1.527 2.54) (end 1.273 2.54) (layer F.Fab) (width 0.127))
+  (fp_line (start -1.527 -2.54) (end 1.273 -2.54) (layer F.Fab) (width 0.127))
+  (fp_arc (start 1.273 0.0) (end 1.273 2.0) (angle -180.0) (layer F.Fab) (width 0.127))
+)
