@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name esp32pry)(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/modules/esp32pry.pretty")(options "")(descr ""))
+)

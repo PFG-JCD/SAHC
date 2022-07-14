@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "RRS38")(type "Legacy")(uri "${KICAD_SYMBOL_DIR}/RRS38.lib")(options "")(descr ""))
+  (lib (name "ControlAire-rescue")(type "Legacy")(uri "${KIPRJMOD}/ControlAire-rescue.lib")(options "")(descr ""))
+)
